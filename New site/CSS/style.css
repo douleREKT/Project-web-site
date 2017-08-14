@@ -1,0 +1,97 @@
+body
+{
+margin:0;
+padding:0;
+background-image: url("../img/bg.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+color:White;
+}
+.navbar
+{
+  margin:0;
+  padding:10px;
+  border: 0px;
+  color:white;
+  background-color: #0f7d0d;
+}
+.about
+{
+  padding:150px;
+  margin:10px 0 0 0 ;
+  font-size: 16px;
+  font-family: arial;
+  color: Green;
+  background-color: rgba(0,0,0,0.6);
+
+}
+.info
+  {
+    margin-bottom:10px;
+    padding:20px;
+
+    font-size: 20px;
+    font-family: cursive;
+    color: #000;
+    background-color: #fff;
+}
+
+
+
+
+.footer
+{
+  padding:50px;
+  background-color: #0f7d0d;
+  text-align: center;
+  text-transform: capitalize;
+  color:#000;
+  font-size: 18px;
+
+}
+
+.about button
+{
+  border:0;
+  border-radius: 50px;
+  background-color: #0f7d0d;
+  height: 50px;
+  width: 100px;
+  color:#fff;
+}
+.about p
+{
+  clear:left;
+  color:#0f7d0d;
+  font-family: Arial;
+  font-size: 16px;
+}
+.about h3
+{
+  color:white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.header img
+{
+float:left;
+margin-top:-30px;
+padding:0;
+width:80px;
+}
+.nav.navbar-nav.navbar-right li a ,.navbar-brand{
+  padding-left:30px;
+  padding-right: 30px;
+  color: White;
+}
+.nav.navbar-nav.navbar-right li a:hover {
+    color: #CECECE;
+}
+a{
+color:green;
+}
+a:hover{
+  text-decoration: none;
+  color:#000;
+}
