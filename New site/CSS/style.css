@@ -7,6 +7,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 color:White;
+    font-family: cursive,"arial";
 }
 .navbar
 {
@@ -30,11 +31,11 @@ color:White;
   {
     margin-bottom:10px;
     padding:20px;
-
+    
     font-size: 20px;
     font-family: cursive;
     color: #000;
-    background-color: #fff;
+    background-color: white;
 }
 
 
@@ -88,10 +89,30 @@ width:80px;
 .nav.navbar-nav.navbar-right li a:hover {
     color: #CECECE;
 }
-a{
+.container a{
+float: left;
+
 color:green;
+text-decoration: none;
 }
 a:hover{
   text-decoration: none;
   color:#000;
+}
+a:visited{
+  text-decoration: none;
+  color:#000;
+}
+a:active{
+  text-decoration: none;
+  color:#000;
+}
+.more
+{
+  padding:20px;
+  text-align: justify;
+  font-size: 20px;
+  color:green;
+  background-color:rgb(32,36,35);
+  margin: 10px 0 10px 0 ;
 }
